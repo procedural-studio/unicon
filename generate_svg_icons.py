@@ -75,7 +75,7 @@ def main():
     
     for category, info in icons.items():
         for char in info["characters"]:
-            create_svg(char["character"], category, "light")  # From earlier script
+            create_svg(char["character"], category, "dark")  # From earlier script
 
     '''
     with open('data/unicode_icons.json') as f:
